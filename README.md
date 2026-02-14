@@ -167,7 +167,15 @@ python -m unittest discover -s tests -p "test_*.py"
 - Counting line parameters are loaded from `app/config/zones.yaml`.
 - Use `scripts/calibrate_zones.py` to adjust line placement visually.
 
-## Current Limitations
+## Database Maintenance
+
+To clear all stored counting events and reset the auto-increment ID sequence:
+
+```bash
+python scripts/reset_db.py
+```
+
+Use this for local cleanup, test resets, or demo preparation before a new run.`r`n`r`n## Current Limitations
 
 - API authentication is not enabled by default (project intended for local/demo use).
 - Dashboard live updates use periodic polling.
