@@ -1,0 +1,27 @@
+services:
+  api:
+    build: .
+    container_name: PeopleFlowMonitor_api
+    command: python app/api/main.py
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/app
+    environment:
+      PYTHONUNBUFFERED: 1
+    restart: unless-stopped
+
+  dashboard:
+    build: .
+    container_name: PeopleFlowMonitor_dashboard
+    command: streamlit run app/ui/dashboard.py --server.port 8501 --server.address 0.0.0.0
+    ports:
+      - "8501:8501"
+    volumes:
+      - .:/app
+    environment:
+      PYTHONUNBUFFERED: 1
+    restart: unless-stopped
+
+# Observação: Processamento de IA com acesso a webcam via Docker é limitado.
+# Para capturas de vídeo locais, execute o pipeline diretamente na máquina host.

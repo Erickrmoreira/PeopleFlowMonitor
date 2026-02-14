@@ -1,0 +1,5 @@
+counting_line:
+  class_name: person
+  min_confidence: 0.4
+  offset: 0.005  
+  y_ratio: 0.5
