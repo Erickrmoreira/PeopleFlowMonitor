@@ -183,4 +183,4 @@ python -m unittest discover -s tests -p "test_*.py"
 ## Author
 
 Erick Ribeiro Moreira
-Backend Developer - Python, Applied AI, Intelligent Systems
+Backend Developer - Python, Applied AI, Intelligent Systems.
