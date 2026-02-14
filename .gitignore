@@ -1,43 +1,37 @@
-# Python cache and bytecode
+# Python
 __pycache__/
 *.py[cod]
 *$py.class
 
-# Virtual environments
 .venv/
 venv/
 ENV/
 
-# Environment files
 .env
 .env.*
 
-# Databases and temporary files
+# Local data
 data/vision_flow.db
 data/*.db
 *.db
+*.db-wal
+*.db-shm
+*.db-journal
 temp_chart.png
 
-# Trained models and large files
+# Large/generated files
 *.pt
-
-# Logs
 *.log
-
-# Generated reports
 relatorio_fluxo_*.pdf
 docs/*.pdf
 docs/pfm_chart_*.png
 
-# Test/cache/coverage artifacts
 .pytest_cache/
 htmlcov/
 .coverage
 .coverage.*
 
-# IDE settings
+# Editor/OS
 .vscode/
 .idea/
-
-# OS artifacts
 .DS_Store
