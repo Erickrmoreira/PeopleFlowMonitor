@@ -6,7 +6,7 @@ This repository was built with focus on:
 - modular architecture
 - clean separation of responsibilities
 - real-time or near-real-time processing
-- practical portfolio quality
+- production-minded engineering
 
 ## Project Goals
 
