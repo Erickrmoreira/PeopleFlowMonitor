@@ -188,7 +188,6 @@ Use this for local cleanup, test resets, or demo preparation before a new run.`r
 - Optional migration to PostgreSQL for higher concurrency.
 - Extended technical details are documented in `ARCHITECTURE.md`.
 
-## Author
-
-Erick Ribeiro Moreira
-Backend Developer Python - Applied AI, Intelligent Systems.
+## Autor
+Erick Ribeiro Moreira  
+Backend Developer — Python, Applied AI, Intelligent Systems.
