@@ -192,4 +192,4 @@ Use this for local cleanup, test resets, or demo preparation before a new run.`r
 
 ## Autor
 Erick Ribeiro Moreira  
-Backend Developer — Python, Applied AI, Intelligent Systems.
+Backend Developer & AI Engineer.
