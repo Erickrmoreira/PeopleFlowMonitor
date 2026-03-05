@@ -175,7 +175,9 @@ To clear all stored counting events and reset the auto-increment ID sequence:
 python scripts/reset_db.py
 ```
 
-Use this for local cleanup, test resets, or demo preparation before a new run.`r`n`r`n## Current Limitations
+Use this for local cleanup, test resets, or demo preparation before a new run.`r`n`r`n
+
+## Current Limitations
 
 - API authentication is not enabled by default (project intended for local/demo use).
 - Dashboard live updates use periodic polling.
